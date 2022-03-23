@@ -68,6 +68,8 @@ it('lets user2 buy a star and decreases its balance in ether', async() => {
     await instance.createStar('awesome star', starId, {from: user1});
     await instance.putStarUpForSale(starId, starPrice, {from: user1});
     
+    // The following code has been obtained from a commit made by samraul
+    
     // let balanceOfUser1BeforeTransaction = await web3.eth.getBalance(user2);
     // const balanceOfUser2BeforeTransaction = await web3.eth.getBalance(user2);
     // await instance.buyStar(starId, {from: user2, value: balance, gasPrice:0});
