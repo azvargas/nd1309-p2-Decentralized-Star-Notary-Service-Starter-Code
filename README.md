@@ -1,3 +1,5 @@
+Ethereum project to notarize stars (name a star after you!)
+
 1) Your ERC-721 Token Name:
 AzaStar
 
